@@ -1,0 +1,5 @@
+version: 1
+patchUpdated:
+  generators:
+  - command: /tmp/istio/istioctl manifest apply --set profile=demo
+  patchFile: cluster/patch.yaml
