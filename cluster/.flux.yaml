@@ -1,6 +1,4 @@
 version: 1
 commandUpdated:
   generators:
-    - command: /tmp/istio/istioctl manifest generate --set profile=demo
     - command: kustomize build .
-    - command: /tmp/istio/istioctl manifest generate --set profile=demo
