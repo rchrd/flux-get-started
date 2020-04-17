@@ -1,5 +1,4 @@
 version: 1
-patchUpdated:
+commandUpdated:
   generators:
-  - command: /tmp/istio/istioctl manifest apply --set profile=demo
-  patchFile: cluster/patch.yaml
+    - command: kustomize build .
